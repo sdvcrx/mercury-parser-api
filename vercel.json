@@ -1,6 +1,6 @@
 {
     "version": 2,
     "routes": [
-        { "src": "/parse", "dest": "/api/parse.js" }
+        { "src": "/parser", "dest": "/api/parser.js" },
     ]
 }
