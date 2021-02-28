@@ -2,5 +2,6 @@
     "version": 2,
     "routes": [
         { "src": "/parser", "dest": "/api/parser.js" },
+        { "src": "/.*", "dest": "/api/index.js" }
     ]
 }

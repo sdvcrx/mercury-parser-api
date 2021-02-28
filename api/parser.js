@@ -3,7 +3,6 @@ const Mercury = require('@postlight/mercury-parser');
 export default async function (req, res) {
   let result = { message: 'No URL was provided' };
   if (req.query.url) {
-    console.log(`Fetching ${req.query.url} ...`);
     try {
       const contentType = req.query.contentType || 'html';
       let headers = new Object();
