@@ -1,5 +1,8 @@
 {
     "version": 2,
+    "github": {
+        "silent": true
+    },
     "routes": [
         { "src": "/parser", "dest": "/api/parser.js" },
         { "src": "/.*", "dest": "/api/index.js" }
