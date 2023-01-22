@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "isolatedModules": true,
+    "target": "ESNext",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

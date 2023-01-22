@@ -1,4 +1,4 @@
-const Mercury = require('@postlight/mercury-parser');
+const Mercury = require('@postlight/parser');
 
 export default async function (req, res) {
   let result = { message: 'No URL was provided' };
@@ -13,6 +13,8 @@ export default async function (req, res) {
         contentType,
         headers,
       });
+
+      res.setHeader('Cache-Control', 'public, max-age=86400');
     } catch (error) {
       result = { error: true, messages: error.message };
     }

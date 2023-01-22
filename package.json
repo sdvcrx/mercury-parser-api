@@ -11,9 +11,9 @@
   "license": "ISC",
   "devDependencies": {
     "@vercel/node": "^1.9.0",
-    "vercel": "^21.2.3"
+    "vercel": "^28.13.0"
   },
   "dependencies": {
-    "@postlight/mercury-parser": "^2.2.0"
+    "@postlight/parser": "^2.2.3"
   }
 }
