@@ -2,8 +2,8 @@
     "github": {
         "silent": true
     },
-    "rewrites": [
-      { "source": "/parser", "destination": "./api/parser.js" },
-      { "source": "/(.*)", "destination": "./api/index.js" }
+    "routes": [
+      { "src": "/parser", "dest": "/api/parser.js" },
+      { "src": "/.*", "dest": "/api/index.js" }
     ]
 }
